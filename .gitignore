@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model files (large – add manually or use Git LFS)
+*.keras
+*.h5
+*.pb
+
+# Streamlit
+.streamlit/
+
+# Data
+*.zip
+Training/
+Testing/
+
+# Logs
+*.log
+streamlit.log
+logs.txt
+
+# OS
+.DS_Store
+Thumbs.db
